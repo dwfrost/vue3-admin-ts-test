@@ -6,7 +6,7 @@
           {{ scope.$index }}
         </template>
       </el-table-column>
-      <el-table-column label="Title">
+      <el-table-column show-overflow-tooltip label="Title" width="100">
         <template #default="scope">
           {{ scope.row.title }}
         </template>
